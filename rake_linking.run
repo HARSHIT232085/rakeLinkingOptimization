@@ -1,0 +1,12 @@
+# Load the model and data
+reset;
+model rake_linking.mod;
+data rake_linking.dat;
+
+# Solve the problem
+option solver cplex;  # Use CPLEX solver
+solve;
+
+# Display the results
+display X, Y;
+display Total_Rakes;

@@ -1,0 +1,59 @@
+# Sets
+set SERVICES := 1 2 3 4 ;
+set RAKELINKS := 1 2 ;
+set STATIONS := Indore Mumbai Pune;
+# Parameters
+param:T_a :=
+1 660
+2 900
+3 1115
+4 1540;
+
+param:T_d :=
+1 0
+2 690
+3 905
+4 1145;
+
+param: sta_arr :=
+1 Mumbai
+2 Indore
+3 Pune
+4 Mumbai;
+
+param: sta_dep :=
+1 Indore
+2 Mumbai
+3 Mumbai
+4 Pune;
+
+param: D :=
+1 800
+2 150
+3 150
+4 800;
+
+param: sta_origin :=
+1 
+2 ;
+
+param: T_origin :=
+1 0
+2 690;
+
+param:T_RL :=
+1 1540
+2 425;
+
+param T_h := 780;
+param T_clean := 30;
+param B := 4500;
+param M1 := 1000;
+param M2 :=1000;
+param e1 := 0.9;
+param : C :=
+1 14
+2 14
+3 16
+4 16
+;
